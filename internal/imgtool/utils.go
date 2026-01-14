@@ -2,19 +2,15 @@ package imgtool
 
 import (
 	"path/filepath"
+	"slices"
 	"strings"
 )
 
 func IsImageFile(filename string) bool {
 	ext := strings.ToLower(filepath.Ext(filename))
 	supportedExts := []string{".jpg", ".jpeg", ".png", ".webp", ".tiff", ".avif"}
-	
-	for _, supported := range supportedExts {
-		if ext == supported {
-			return true
-		}
-	}
-	return false
+
+	return slices.Contains(supportedExts, ext)
 }
 
 func GetOutputFilename(inputPath, targetExt string) string {

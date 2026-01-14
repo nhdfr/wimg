@@ -12,6 +12,12 @@ A fast and efficient command-line image processing tool written in Go. Convert i
 
 ## Installation
 
+### Go
+
+```bash
+go install github.com/d3xfoo/wimg/cmd/wimg@latest
+```
+
 ### From Source
 
 ```bash
@@ -63,11 +69,13 @@ wimg -r photo.jpg
 ## Compression Behavior
 
 When compressing an image without the `-r` flag:
+
 - Creates a new file with `.compressed` extension
 - Original file is preserved
 - Example: `wimg photo.jpg` → creates `photo.compressed.jpg`
 
 When using the `-r` flag:
+
 - Creates compressed version
 - Removes the original file
 - Renames compressed file to original name
