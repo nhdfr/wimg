@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/d3xfoo/wimg/internal/imgtool"
+	"github.com/nhdfr/wimg/internal/imgtool"
 )
 
 func main() {

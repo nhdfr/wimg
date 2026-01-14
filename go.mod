@@ -1,4 +1,4 @@
-module github.com/d3xfoo/wimg
+module github.com/nhdfr/wimg
 
 go 1.24.5
 

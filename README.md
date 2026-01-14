@@ -15,13 +15,13 @@ A fast and efficient command-line image processing tool written in Go. Convert i
 ### Go
 
 ```bash
-go install github.com/d3xfoo/wimg/cmd/wimg@latest
+go install github.com/nhdfr/wimg/cmd/wimg@latest
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/d3xfoo/wimg.git
+git clone https://github.com/nhdfr/wimg.git
 cd wimg
 go build -o wimg cmd/wimg/main.go
 sudo mv wimg /usr/local/bin/
