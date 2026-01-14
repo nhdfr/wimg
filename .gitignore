@@ -4,8 +4,6 @@
 *.dll
 *.so
 *.dylib
-wimg
-wimg-*
 
 # Test binary, built with `go test -c`
 *.test
